@@ -9,7 +9,7 @@ class SideBar extends StatefulWidget {
 
 class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<SideBar> {
   late AnimationController _animationController; //late mofied
-  StreamController<bool> side_bar_open_stream_controller;
+  // StreamController<bool> side_bar_open_stream_controller;
   final bool side_bar_open = false;
   final _animation_duration = const Duration(milliseconds: 500);
   @override
